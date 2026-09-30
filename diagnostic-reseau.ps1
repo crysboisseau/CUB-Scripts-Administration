@@ -5,3 +5,9 @@ Get-NetIPConfiguration
 
 Write-Host "Test de la pile TCP/IP"
 Ping 127.0.0.1
+
+Write-Host "Affichage des serveurs DNS"
+Get-DnsClientServerAddress
+Git add diagnostic-reseau.ps1
+Git commit -m "Ajout du diagnostic DNS"
+Git log --oneline
