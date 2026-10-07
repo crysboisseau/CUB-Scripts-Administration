@@ -11,3 +11,6 @@ Get-DnsClientServerAddress
 Git add diagnostic-reseau.ps1
 Git commit -m "Ajout du diagnostic DNS"
 Git log --oneline
+
+Write-Host "Test de la passerelle"
+Test-NetConnection 192.168.2.126
