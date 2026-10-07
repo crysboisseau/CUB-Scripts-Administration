@@ -17,3 +17,6 @@ Test-NetConnection 192.168.2.126
 
 Write-Host "Test de résolution DNS"
 Resolve-DnsName www.example.com
+
+Write-Host "Informations système"
+Get-ComputerInfo
